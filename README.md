@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://ani-menaphire.github.io/Order-Summary-Component/)
+- [Live Site URL](https://ani-menaphire.github.io/Order-Summary-Component/)
 
 ## My process
 
