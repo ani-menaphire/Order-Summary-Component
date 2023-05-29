@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'red hat display';
+}
+
+@media screen and (max-width: 599px) {
+  body {
+    background: url(images/pattern-background-mobile.svg) no-repeat;    
+  }
+}
+
+@media screen and (min-width: 600px){
+  body {
+    background: url(images/pattern-background-desktop.svg) no-repeat; 
+  }
+}
+
+body { 
+  min-height: 100vh;
+  background-color: hsl(225, 100%, 94%);
+  background-size: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  max-width: 28.125rem;
+  margin: 1rem;
+  border-radius: 1.3rem;
+  overflow: hidden;
+  background-color: hsl(225, 100%, 98%);
+}
+
+.card__image {
+  width: 100%;
+  margin-bottom: 2.3rem;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 70%;
+}
+
+.card__header {
+  color: hsl(223, 47%, 23%);
+  font-size: 1.7rem;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 1.3rem;
+}
+
+.card__description {
+  color: hsl(224, 23%, 55%);
+  text-align: center;
+  line-height: 1.6rem;
+  margin-bottom: 2.4rem;
+}
+
+.card__container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+.card__subscription {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+  line-height: 1.6rem;
+  margin-left: 1rem;
+}
+
+.card__price {
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+}
+
+.card__link {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: hsl(245, 75%, 52%);  
+  margin-left: auto;
+}
+
+.card__link:hover {
+  text-decoration: none;
+  color: hsl(245, 75%, 65%);
+}
+
+.card__button--blue {
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 98%);
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 0.8rem;
+  width: 115%;
+  padding: 0.85rem;
+  box-shadow: 0 20px 10px hsla(245, 75%, 62%, 0.15);
+  margin-bottom: 1.9rem;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.card__button--blue:hover {
+  background-color: hsl(245, 75%, 65%);
+}
+
+.card__button--white {
+  background-color: inherit;
+  color: hsl(224, 23%, 55%);
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  margin-bottom: 3rem;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.card__button--white:hover {
+  color: hsl(223, 47%, 23%);
+}
